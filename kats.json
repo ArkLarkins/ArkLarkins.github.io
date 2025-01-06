@@ -95,10 +95,6 @@
 			"dataSource": "gear"
 		},
 		{
-			"propertyName": "heroicActions",
-			"label": "Heroic Actions"
-		},
-		{
 			"propertyName": "specialRules",
 			"label": "Special Rules",
 			"dataSource": "keywords"
@@ -162,24 +158,14 @@
 									"propertyName": "options",
 									"type": "checkbox",
 									"dataSource": "gear",
-									"disallowedMultiples": [
-										"bow",
-										"mount",
-										"armour",
-										"shield"
-									]
+									"disallowedMultiples": []
 								},
 								{
 									"propertyName": "wargear",
 									"label": "Wargear",
 									"type": "static",
 									"dataSource": "gear",
-									"disallowedMultiples": [
-										"bow",
-										"mount",
-										"armour",
-										"shield"
-									],
+									"disallowedMultiples": [],
 									"children": [
 										{
 											"propertyName": "wargear",
@@ -204,12 +190,6 @@
 									]
 								},
 								{
-									"propertyName": "heroicActions",
-									"label": "Heroic Actions",
-									"type": "static"
-								},
-								
-								{
 									"propertyName": "unitType",
 									"label": "Unit Type",
 									"type": "static"
@@ -221,23 +201,13 @@
 							"label": "Wargear",
 							"type": "static",
 							"dataSource": "gear",
-							"disallowedMultiples": [
-								"bow",
-								"mount",
-								"armour",
-								"shield"
-							]
+							"disallowedMultiples": []
 						},
 						{
 							"propertyName": "options",
 							"type": "checkbox",
 							"dataSource": "gear",
-							"disallowedMultiples": [
-								"bow",
-								"mount",
-								"armour",
-								"shield"
-							],
+							"disallowedMultiples": [],
 							"children": [
 								{
 									"label": "Special Rules",
@@ -248,11 +218,6 @@
 								{
 									"propertyName": "unitType",
 									"label": "Unit Type",
-									"type": "static"
-								},
-								{
-									"propertyName": "heroicActions",
-									"label": "Heroic Actions",
 									"type": "static"
 								}
 							]
@@ -270,11 +235,6 @@
 									"dataSource": "keywords"
 								}
 							]
-						},
-						{
-							"propertyName": "heroicActions",
-							"label": "Heroic Actions",
-							"type": "static"
 						},
 						{
 							"propertyName": "range",
@@ -355,11 +315,6 @@
 				"defense": 4,
 				"speed": 6,
 				"tough": 4,
-				"heroicActions": [
-					"Heroic Challenge",
-					"Heroic Strength",
-					"Heroic Strike"
-				],
 				"unitType": [
 					"Hero"
 				],
