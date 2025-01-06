@@ -389,7 +389,7 @@
 				"name": "Boromir, Captain of the White Tower",
 				"factions": [
 					{
-						"name": "Empires of Man"
+						"name": "Empires of Man",
 						"heroicTier": "Hero"
 					}
 				],
@@ -433,7 +433,8 @@
 				"name": "Boromir, the Boring",
 				"factions": [
 					{
-						"name": "Empires of Man"
+						"name": "Empires of Man",
+						"heroicTier": "Hero"
 					}
 				],
 				"points": 100,
