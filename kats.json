@@ -222,11 +222,6 @@
 									"propertyName": "unitType",
 									"label": "Unit Type",
 									"type": "static"
-								},
-								{
-									"propertyName": "baseSize",
-									"label": "Base Size",
-									"type": "static"
 								}
 							]
 						},
@@ -275,11 +270,6 @@
 									"type": "static"
 								},
 								{
-									"propertyName": "baseSize",
-									"label": "Base Size",
-									"type": "static"
-								},
-								{
 									"propertyName": "heroicActions",
 									"label": "Heroic Actions",
 									"type": "static"
@@ -323,11 +313,6 @@
 						{
 							"propertyName": "unitType",
 							"label": "Unit Type",
-							"type": "static"
-						},
-						{
-							"propertyName": "baseSize",
-							"label": "Base Size",
 							"type": "static"
 						},
 						{
@@ -415,9 +400,6 @@
 					"Infantry",
 					"Unique"
 				],
-				"baseSize": [
-					"25mm"
-				],
 				"options": [
 					{
 						"name": "Horse",
@@ -452,9 +434,6 @@
 				],
 				"unitType": [
 					"Hero"
-				],
-				"baseSize": [
-					"25mm"
 				],
 				"options": [
 					{
