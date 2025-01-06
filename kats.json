@@ -148,7 +148,6 @@
 					"dataSource": "heroes",
 					"label": "Hero",
 					"type": "main",
-					"tierProperty": "heroicTier",
 					"tierData": "heroicTiers",
 					"tiers": [
 						{
@@ -157,7 +156,7 @@
 								"warriors": 0
 							},
 							"canBeChild": true,
-							"rank": 5
+							"rank": 1
 						}
 					],
 					"children": [
