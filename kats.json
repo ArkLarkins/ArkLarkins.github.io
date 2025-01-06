@@ -50,66 +50,23 @@
 	],
 	"stats": [
 		{
-			"name": "Movement",
-			"abbreviation": "Mv",
+			"name": "Quality",
+			"abbreviation": "Qu",
+			"trail": "+"
+		},
+		{
+			"name": "Defense",
+			"abbreviation": "Df",
+			"trail": "+"
+		},
+		{
+			"name": "Speed",
+			"abbreviation": "Sp",
 			"trail": "\""
 		},
 		{
-			"name": "Fight",
-			"abbreviation": "FV"
-		},
-		{
-			"name": "Shoot",
-			"abbreviation": "SV",
-			"trail": "+"
-		},
-		{
-			"name": "Strength",
-			"abbreviation": "S"
-		},
-		{
-			"name": "Defence",
-			"abbreviation": "D"
-		},
-		{
-			"name": "Attack",
-			"abbreviation": "A"
-		},
-		{
-			"name": "Wounds",
-			"abbreviation": "W",
-			"expendable": true,
-			"onlyExpendableIfGreaterThanOne": true
-		},
-		{
-			"name": "Courage",
-			"abbreviation": "C",
-			"trail": "+"
-		},
-		{
-			"name": "Intelligence",
-			"abbreviation": "I",
-			"trail": "+"
-		},
-		{
-			"name": "",
-			"abbreviation": "|",
-			"showIf": "Might"
-		},
-		{
-			"name": "Might",
-			"abbreviation": "M",
-			"expendable": true
-		},
-		{
-			"name": "Will",
-			"abbreviation": "W",
-			"expendable": true
-		},
-		{
-			"name": "Fate",
-			"abbreviation": "F",
-			"expendable": true
+			"name": "Tough",
+			"abbreviation": "Tg"
 		}
 	],
 	"dataTableKeys": [
@@ -514,14 +471,8 @@
 				"additionalRules": [
 					"The Fellowship is always deployed as a single Warband."
 				],
-				"armyBonuses": [
-					"\"You have my sword\"",
-					"The Bond of Fellowship",
-					"Traverse the Wilderness"
-				],
-				"specialRules": [
-					"Fearless"
-				]
+				"armyBonuses": [],
+				"specialRules": []
 			}],
 		"heroicTiers": [
 			{
@@ -558,19 +509,11 @@
 						"heroicTier": "Hero of Valour"
 					}
 				],
-				"points": 160,
-				"movement": 6,
-				"fight": 7,
-				"shoot": 4,
-				"strength": 4,
-				"defence": 6,
-				"attack": 3,
-				"wounds": 3,
-				"courage": 4,
-				"intelligence": 5,
-				"might": 6,
-				"will": 3,
-				"fate": 3,
+				"points": 100,
+				"quality": 4,
+				"defense": 4,
+				"speed": 6,
+				"tough": 4,
 				"heroicActions": [
 					"Heroic Challenge",
 					"Heroic Strength",
