@@ -73,50 +73,20 @@
 		"heroes",
 		"warriors"
 	],
-	"limits": [
-		{
-			"type": "bow",
-			"property": "warriors",
-			"byFaction": true,
-			"maximumPercentage": 33.33,
-			"roundUp": true,
-			"label": "warrior bows"
-		},
-		{
-			"type": "throwingWeapon",
-			"property": "warriors",
-			"byFaction": true,
-			"maximumPercentage": 33.33,
-			"roundUp": true,
-			"label": "warrior throwing weapons"
-		}
-	],
-	"counts": [
-		"bow",
-		{
-			"property": "throwingWeapon",
-			"label": "throwing weapon"
-		}
-	],
+	"limits": [],
+	"counts": [],
 	"calculations": [
 		{
-			"label": "Broken",
+			"label": "Models: ",
 			"property": "models",
-			"percentage": 50.00001,
+			"percentage": 100,
 			"roundup": true,
-			"suffix": " killed"
+			"suffix": ""
 		},
 		{
-			"label": "Quartered",
-			"property": "models",
-			"percentage": 25,
-			"roundup": false,
-			"suffix": " remaining"
-		},
-		{
-			"label": "Might",
+			"label": "Tough",
 			"properties": [
-				"might"
+				"tough"
 			]
 		}
 	],
