@@ -83,17 +83,7 @@
 			]
 		}
 	],
-	"validations": [
-		{
-			"type": "minimumTier",
-			"allianceLevels": [
-				"secondary",
-				"none"
-			],
-			"minimum": 2,
-			"message": "You must have at least one hero of at least Hero of Valour per faction for a Convenient or Impossible alliance."
-		}
-	],
+	"validations": [],
 	"leaderConfig": {
 		"elementPropertyName": "heroes",
 		"usesProperty": "heroicTier"
@@ -400,6 +390,7 @@
 				"factions": [
 					{
 						"name": "Empires of Man"
+						"heroicTier": "Hero"
 					}
 				],
 				"points": 100,
@@ -422,6 +413,43 @@
 					"Hero",
 					"Infantry",
 					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"options": [
+					{
+						"name": "Horse",
+						"points": 20
+					},
+					{
+						"name": "Shield",
+						"points": 5
+					}
+				],
+				"wargear": []
+			},
+			{
+				"name": "Boromir, the Boring",
+				"factions": [
+					{
+						"name": "Empires of Man"
+					}
+				],
+				"points": 100,
+				"quality": 4,
+				"defense": 4,
+				"speed": 6,
+				"tough": 4,
+				"heroicActions": [],
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Gondor"
+				],
+				"unitType": [
+					"Hero"
 				],
 				"baseSize": [
 					"25mm"
