@@ -138,6 +138,7 @@
 					"dataSource": "heroes",
 					"label": "Hero",
 					"type": "main",
+					"tierProperty":	"heroicTier",
 					"tierData": "heroicTiers",
 					"tiers": [
 						{
