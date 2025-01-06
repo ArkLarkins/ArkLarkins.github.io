@@ -152,42 +152,7 @@
 					"tierData": "heroicTiers",
 					"tiers": [
 						{
-							"name": "Hero of Legend - Sauron",
-							"maximumChildren": {
-								"warriors": 24
-							},
-							"rank": 1
-						},
-						{
-							"name": "Hero of Legend",
-							"maximumChildren": {
-								"warriors": 18
-							},
-							"rank": 1
-						},
-						{
-							"name": "Hero of Valour",
-							"maximumChildren": {
-								"warriors": 15
-							},
-							"rank": 2
-						},
-						{
-							"name": "Hero of Fortitude",
-							"maximumChildren": {
-								"warriors": 12
-							},
-							"rank": 3
-						},
-						{
-							"name": "Minor Hero",
-							"maximumChildren": {
-								"warriors": 6
-							},
-							"rank": 4
-						},
-						{
-							"name": "Independent Hero",
+							"name": "Hero",
 							"maximumChildren": {
 								"warriors": 0
 							},
@@ -426,27 +391,7 @@
 			}],
 		"heroicTiers": [
 			{
-				"name": "Hero of Legend - Sauron",
-				"followers": 24
-			},
-			{
-				"name": "Hero of Legend",
-				"followers": 18
-			},
-			{
-				"name": "Hero of Valour",
-				"followers": 15
-			},
-			{
-				"name": "Hero of Fortitude",
-				"followers": 12
-			},
-			{
-				"name": "Minor Hero",
-				"followers": 6
-			},
-			{
-				"name": "Independent Hero",
+				"name": "Hero",
 				"followers": 0
 			}
 		],
