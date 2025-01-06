@@ -3,7 +3,7 @@
 		"trackHighestDivision": true
 	},
 	"appVersion": 2,
-	"disallowMultipleFactions": true,
+	"disallowMultipleFactions": false,
 	"colors": {
 		"light": {
 			"primary": "#841912",
@@ -77,13 +77,6 @@
 	"counts": [],
 	"calculations": [
 		{
-			"label": "Models: ",
-			"property": "models",
-			"percentage": 100,
-			"roundup": true,
-			"suffix": ""
-		},
-		{
 			"label": "Tough",
 			"properties": [
 				"tough"
@@ -133,13 +126,9 @@
 			"label": "Faction",
 			"type": "faction",
 			"dataSource": "factions",
-			"removeWhenNotPrimary": [
-				"armyBonus"
-			],
 			"divisionProperty": "alignment",
 			"divisions": [
-				"Good",
-				"Evil"
+				"Armies"
 			],
 			"children": [
 				{
@@ -163,47 +152,10 @@
 					"tierData": "heroicTiers",
 					"tiers": [
 						{
-							"name": "Hero of Legend - Sauron",
-							"maximumChildren": {
-								"warriors": 24
-							},
-							"rank": 1
-						},
-						{
-							"name": "Hero of Legend",
-							"maximumChildren": {
-								"warriors": 18
-							},
-							"rank": 1
-						},
-						{
-							"name": "Hero of Valour",
-							"maximumChildren": {
-								"warriors": 15
-							},
-							"rank": 2
-						},
-						{
-							"name": "Hero of Fortitude",
-							"maximumChildren": {
-								"warriors": 12
-							},
-							"rank": 3
-						},
-						{
-							"name": "Minor Hero",
-							"maximumChildren": {
-								"warriors": 6
-							},
-							"rank": 4
-						},
-						{
-							"name": "Independent Hero",
+							"name": "Hero",
 							"maximumChildren": {
 								"warriors": 0
 							},
-							"canBeChild": true,
-							"rank": 5
 						}
 					],
 					"children": [
@@ -429,37 +381,15 @@
 	"data": {
 		"factions": [
 			{
-				"name": "The Fellowship",
-				"alignment": "good",
-				"additionalRules": [
-					"The Fellowship is always deployed as a single Warband."
-				],
+				"name": "Empires of Man",
+				"alignment": "Armies",
+				"additionalRules": [],
 				"armyBonuses": [],
 				"specialRules": []
 			}],
 		"heroicTiers": [
 			{
-				"name": "Hero of Legend - Sauron",
-				"followers": 24
-			},
-			{
-				"name": "Hero of Legend",
-				"followers": 18
-			},
-			{
-				"name": "Hero of Valour",
-				"followers": 15
-			},
-			{
-				"name": "Hero of Fortitude",
-				"followers": 12
-			},
-			{
-				"name": "Minor Hero",
-				"followers": 6
-			},
-			{
-				"name": "Independent Hero",
+				"name": "Hero",
 				"followers": 0
 			}
 		],
@@ -468,8 +398,7 @@
 				"name": "Boromir, Captain of the White Tower",
 				"factions": [
 					{
-						"name": "The Fellowship",
-						"heroicTier": "Hero of Valour"
+						"name": "Empires of Man"
 					}
 				],
 				"points": 100,
