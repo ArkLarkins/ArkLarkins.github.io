@@ -208,16 +208,7 @@
 									"label": "Heroic Actions",
 									"type": "static"
 								},
-								{
-									"propertyName": "race",
-									"label": "Race",
-									"type": "static"
-								},
-								{
-									"propertyName": "faction",
-									"label": "Faction",
-									"type": "static"
-								},
+								
 								{
 									"propertyName": "unitType",
 									"label": "Unit Type",
@@ -255,16 +246,6 @@
 									"dataSource": "keywords"
 								},
 								{
-									"propertyName": "race",
-									"label": "Race",
-									"type": "static"
-								},
-								{
-									"propertyName": "faction",
-									"label": "Faction",
-									"type": "static"
-								},
-								{
 									"propertyName": "unitType",
 									"label": "Unit Type",
 									"type": "static"
@@ -298,16 +279,6 @@
 						{
 							"propertyName": "range",
 							"label": "Range",
-							"type": "static"
-						},
-						{
-							"propertyName": "race",
-							"label": "Race",
-							"type": "static"
-						},
-						{
-							"propertyName": "faction",
-							"label": "Faction",
 							"type": "static"
 						},
 						{
@@ -388,49 +359,6 @@
 					"Heroic Challenge",
 					"Heroic Strength",
 					"Heroic Strike"
-				],
-				"race": [
-					"Man"
-				],
-				"faction": [
-					"Gondor"
-				],
-				"unitType": [
-					"Hero",
-					"Infantry",
-					"Unique"
-				],
-				"options": [
-					{
-						"name": "Horse",
-						"points": 20
-					},
-					{
-						"name": "Shield",
-						"points": 5
-					}
-				],
-				"wargear": []
-			},
-			{
-				"name": "Boromir, the Boring",
-				"factions": [
-					{
-						"name": "Empires of Man",
-						"heroicTier": "Hero"
-					}
-				],
-				"points": 100,
-				"quality": 4,
-				"defense": 4,
-				"speed": 6,
-				"tough": 4,
-				"heroicActions": [],
-				"race": [
-					"Man"
-				],
-				"faction": [
-					"Gondor"
 				],
 				"unitType": [
 					"Hero"
