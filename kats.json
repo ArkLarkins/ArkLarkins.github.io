@@ -130,6 +130,12 @@
 					"dataSource": "armyBonuses"
 				},
 				{
+					"propertyName": "units",
+					"dataSource": "units",
+					"label": "Units",
+					"type": "main"
+				},
+				{
 					"propertyName": "heroes",
 					"dataSource": "heroes",
 					"label": "Hero",
@@ -317,6 +323,36 @@
 				"tough": 4,
 				"unitType": [
 					"Hero"
+				],
+				"options": [
+					{
+						"name": "Horse",
+						"points": 20
+					},
+					{
+						"name": "Shield",
+						"points": 5
+					}
+				],
+				"wargear": []
+			}
+		],
+		"units": [
+			{
+				"name": "Infantrymen [10]",
+				"factions": [
+					{
+						"name": "Empires of Man",
+						"heroicTier": "Hero"
+					}
+				],
+				"points": 100,
+				"quality": 4,
+				"defense": 4,
+				"speed": 6,
+				"tough": 4,
+				"unitType": [
+					"Infantry"
 				],
 				"options": [
 					{
