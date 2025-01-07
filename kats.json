@@ -130,12 +130,6 @@
 					"dataSource": "armyBonuses"
 				},
 				{
-					"propertyName": "units",
-					"dataSource": "units",
-					"label": "Units",
-					"type": "main"
-				},
-				{
 					"propertyName": "heroes",
 					"dataSource": "heroes",
 					"label": "Hero",
@@ -288,6 +282,12 @@
 							]
 						}
 					]
+				},
+				{
+					"propertyName": "units",
+					"dataSource": "units",
+					"label": "Units",
+					"type": "list"
 				}
 			]
 		}
