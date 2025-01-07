@@ -287,7 +287,8 @@
 					"propertyName": "units",
 					"dataSource": "units",
 					"label": "Units",
-					"type": "main"
+					"type": "main",
+					"unlimited": true
 				}
 			]
 		}
@@ -345,6 +346,7 @@
 						"name": "Empires of Man"
 					}
 				],
+				
 				"points": 100,
 				"quality": 4,
 				"defense": 4,
