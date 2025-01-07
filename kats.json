@@ -146,142 +146,7 @@
 							"rank": 1
 						}
 					],
-					"children": [
-						{
-							"singleKey": "warrior",
-							"dataSource": "warriors",
-							"propertyName": "warriors",
-							"label": "Warrior",
-							"type": "list",
-							"children": [
-								{
-									"propertyName": "options",
-									"type": "checkbox",
-									"dataSource": "gear",
-									"disallowedMultiples": []
-								},
-								{
-									"propertyName": "wargear",
-									"label": "Wargear",
-									"type": "static",
-									"dataSource": "gear",
-									"disallowedMultiples": [],
-									"children": [
-										{
-											"propertyName": "wargear",
-											"label": "Wargear",
-											"type": "static",
-											"dataSource": "gear"
-										}
-									]
-								},
-								{
-									"propertyName": "specialRules",
-									"type": "static",
-									"label": "Special Rules",
-									"dataSource": "keywords",
-									"children": [
-										{
-											"label": "Special Rules",
-											"propertyName": "specialRules",
-											"type": "static",
-											"dataSource": "keywords"
-										}
-									]
-								},
-								{
-									"propertyName": "unitType",
-									"label": "Unit Type",
-									"type": "static"
-								}
-							]
-						},
-						{
-							"propertyName": "wargear",
-							"label": "Wargear",
-							"type": "static",
-							"dataSource": "gear",
-							"disallowedMultiples": []
-						},
-						{
-							"propertyName": "options",
-							"type": "checkbox",
-							"dataSource": "gear",
-							"disallowedMultiples": [],
-							"children": [
-								{
-									"label": "Special Rules",
-									"propertyName": "specialRules",
-									"type": "static",
-									"dataSource": "keywords"
-								},
-								{
-									"propertyName": "unitType",
-									"label": "Unit Type",
-									"type": "static"
-								}
-							]
-						},
-						{
-							"propertyName": "specialRules",
-							"label": "Special Rules",
-							"type": "static",
-							"dataSource": "keywords",
-							"children": [
-								{
-									"label": "Special Rules",
-									"propertyName": "specialRules",
-									"type": "static",
-									"dataSource": "keywords"
-								}
-							]
-						},
-						{
-							"propertyName": "range",
-							"label": "Range",
-							"type": "static"
-						},
-						{
-							"propertyName": "unitType",
-							"label": "Unit Type",
-							"type": "static"
-						},
-						{
-							"propertyName": "magicalPowers",
-							"label": "Magical Powers",
-							"type": "static",
-							"dataSource": "magicalPowers",
-							"stats": [
-								{
-									"name": "Magical Power",
-									"propertyName": "name"
-								},
-								{
-									"name": "Range",
-									"propertyName": "range",
-									"trail": "\"",
-									"definedOnUnit": true
-								},
-								{
-									"name": "Casting",
-									"propertyName": "casting",
-									"trail": "+",
-									"definedOnUnit": true
-								},
-								{
-									"name": "Duration",
-									"propertyName": "duration",
-									"inTooltip": true,
-									"printDisplay": "parentheses"
-								},
-								{
-									"name": "Definition",
-									"propertyName": "definition",
-									"inTooltip": true
-								}
-							]
-						}
-					]
+					"children": []
 				},
 				{
 					"propertyName": "units",
@@ -321,6 +186,7 @@
 				"defense": 4,
 				"speed": 6,
 				"tough": 4,
+				"unlimited": true,
 				"unitType": [
 					"Hero"
 				],
@@ -345,7 +211,6 @@
 						"name": "Empires of Man"
 					}
 				],
-				
 				"points": 100,
 				"quality": 4,
 				"defense": 4,
