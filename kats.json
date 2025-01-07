@@ -287,8 +287,7 @@
 					"propertyName": "units",
 					"dataSource": "units",
 					"label": "Units",
-					"type": "main",
-					"unlimited": true
+					"type": "main"
 				}
 			]
 		}
@@ -352,6 +351,7 @@
 				"defense": 4,
 				"speed": 6,
 				"tough": 4,
+				"unlimited": true,
 				"unitType": [
 					"Infantry"
 				],
